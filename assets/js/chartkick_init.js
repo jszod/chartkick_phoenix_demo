@@ -1,0 +1,3 @@
+import 'chartkick'
+import 'highcharts'
+
