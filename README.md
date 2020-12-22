@@ -75,6 +75,7 @@ Add '/lib/chartkick_phoenix_demo_web/templates/page/index.html.eex` contents as 
 **Add script tag in `index.html.eex`**
 
 This page needs to load the charkick js libs. Add the following line to import the `chartkick_init.js` file.
+
 ```
 <script src='<%= Routes.static_path(@conn, "/js/chartkick_init.js") %>' type="text/javascript"></script>
 ```
